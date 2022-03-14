@@ -1,0 +1,30 @@
+.cabecalho{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem ;
+}
+.menu-lista{
+    display: flex;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-item {
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.menu-link{
+    color: deeppink ;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+.menu-link:active{
+    color: black;
+    font-weight: bold;
+}
+.menu-link:hover{
+    color: black;
+    font-weight: bold;
+}
