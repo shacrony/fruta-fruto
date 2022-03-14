@@ -1,0 +1,78 @@
+.banner{
+    position: relative;
+}
+
+.banner-imagem {
+    background: url('../img/banner.jpg') no-repeat center / cover ;
+    width: 100%;
+    height: calc(70vh - 72px);
+}
+.banner-titulo{
+    font-family: "Cormorant Garamond", "cursive";
+    font-size: 5.0625rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0.75);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.sobre{
+    text-align: center;
+    padding: 2.5em ;
+}
+.sobre-titulo{
+    color: crimson;
+    font-family: "Cormorant Garamond", "cursive";
+    font-size: 3.75rem;
+}
+.sobre-descricao{
+    font-weight: 100;
+    font-size: 1,75rem;
+}
+
+@media screen and (min-width: 0) {
+    .banner-titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-titulo {
+        font-size: 5.0625rem;
+    }
+}
+.sobre {
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}
+.sobre-titulo {
+    color: #8d0606;
+    font-family: "Cormorant Garamond", "cursive";
+
+}
+
+@media screen and (min-width: 0px) {
+    .sobre-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-titulo {
+        font-size: 3.1875rem;
+    }
+}
